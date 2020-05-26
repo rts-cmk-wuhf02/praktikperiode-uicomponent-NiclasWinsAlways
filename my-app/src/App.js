@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import App__background from './images/Rectangle 2.png';
 
 function App() {
   return (
