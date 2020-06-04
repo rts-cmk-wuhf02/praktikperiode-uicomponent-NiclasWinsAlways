@@ -1,17 +1,17 @@
-/* const contentful = require('contentful')
+ const contentful = require('contentful')
 
 const client = contentful.createClient({
-  space: '3s5j27n9nypm', // contentful space_id
+  space: 'vysv1cf3r2yp', // contentful space_id
   environment: 'master', // defaults to 'master' if not set
-  accessToken: 'yR2gL3HeWPJLJS2umEzQG38R-N1ACaHaWq4_TVFO5F0' // contentful access token
+  accessToken: 'WGpT0_TrOWO68sirkmZ3zFGdzaCMbZeshsmn7esStck' // contentful access token
 })
 
-client.getEntry('') // entry id
+client.getEntry('2ofPHNBzDPzWbFXPKFGsoc') // entry id
 .then((entry) => {
-    client.getAsset('')
+    client.getAsset('YfiQpb8rb8gv4Kj4ljjFy')
     .then((asset) => document.querySelector(".Parcelbox__logo").setAttribute("src", asset.fields.file.url))
     .catch(console.error)
-  document.querySelector(".Parcelbox__title").innerHTML = entry.fields.title;
-  document.querySelector(".Parcelbox__desc").innerHTML = entry.fields.description;
+  document.querySelector(".Parcelbox__title").innerHTML = entry.fields.appTitle;
+  document.querySelector(".Parcelbox__desc").innerHTML = entry.fields.appDesc;
 })
-.catch(console.error) */
+.catch(console.error) 

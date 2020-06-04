@@ -17,9 +17,9 @@ function App() {
       <img src="" className="Parcelbox__logo" alt="Logo" css={css`background-size: cover;background-repeat: no-repeat;
       width: 72px; height: 72px; margin-left: 170px; margin-top: 20px;`}></img>
       <h1 className="Parcelbox__title" css={css`font-family: 'Gotham', sans-serif;font-weight: bold;font-size: 18px;
-      margin-left: 30px;color: white;margin-top: 30px;`}>PARCELS</h1>
+      margin-left: 30px;color: white;margin-top: 30px;`}></h1>
       <p className="Parcelbox__desc" css={css`color: white;font-family: 'Gotham', sans-serif;font-weight: 600;font-size: 16px;
-      width: 200px;text-align: left;margin-left: 30px;height: 88px;`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit</p>
+      width: 200px;text-align: left;margin-left: 30px;height: 88px;`}></p>
     </div>
   );
 }

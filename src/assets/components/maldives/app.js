@@ -12,14 +12,14 @@ function App() {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;`}>
-      <img src="../../images/Rectangle 2.png" className="App__background" alt="Background" css={css`background-size: cover;background-repeat: no-repeat;
+      <img src="" className="App__background" alt="Background" css={css`background-size: cover;background-repeat: no-repeat;
       width: 372px;`}></img>
       <p className="App__subtitle" css={css`margin-top: 30px;font-family: 'Roboto', sans-serif;letter-spacing: 2px;
-      color: #33439B;font-weight: bold;font-size: 11px;margin-left: 30px;`}>TRAVEL</p>
+      color: #33439B;font-weight: bold;font-size: 11px;margin-left: 30px;`}>loading</p>
       <h1 className="App__title" css={css`font-family: 'Roboto', sans-serif;font-weight: bold;font-size: 28px;
-      margin-left: 30px;`}>Surfing in Maldives</h1>
+      margin-left: 30px;`}>loading</h1>
       <p className="App__desc" css={css`color: #7B8591;font-family: 'Roboto', sans-serif;font-weight: 600;font-size: 16px;
-      width: 291px;text-align: left;margin-left: 30px;height: 88px;`}>It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.</p>
+      width: 291px;text-align: left;margin-left: 30px;height: 88px;`}>loading</p>
     </div>
   );
 }

@@ -31,9 +31,9 @@ function App() {
       color: white;
       background-color: #005AEE;
       line-height: 35px;
-      `}>LEISURE</p>
+      `}>Leisure</p>
       <h1 className="Outdoor__title" css={css`font-family: 'Roboto', sans-serif;font-weight: bold;font-size: 45px;
-      margin-left: 370px;width: 300px;`}>Outdoor
+      margin-left: 370px;width: 300px;`}>
       Experience</h1>
       <p className="Outdoor__desc" css={css`color: #7B8591;font-family: 'Roboto', sans-serif;font-weight: 600;font-size: 16px;
       width: 300px;text-align: left;margin-left: 370px;height: 88px;
